@@ -22,7 +22,7 @@ class Dog(Animal):
     super(Dog, self).__init__()
   def pet(self):
     self.health += 5
-    print "Health after petting: " + self.health
+    print "Health after petting: " + str(self.health)
     return self
 
 dog_1 = Animal("Buster", 150)
