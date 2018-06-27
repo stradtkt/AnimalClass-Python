@@ -23,6 +23,7 @@ class Dog(Animal):
   def pet(self):
     self.health += 5
     print "Health after petting: " + self.health
+    return self
 
 dog_1 = Animal("Buster", 150)
 dog_1.walk().walk().walk().run().run().pet().display_health()
